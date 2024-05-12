@@ -1,0 +1,87 @@
+<html><head><title>undefined</title><link rel="stylesheet" href="https://dl.etna-alternance.net/sujets/prism.css"><link rel="stylesheet" href="https://dl.etna-alternance.net/sujets/sujet.css"><script type="text/javascript" src="https://dl.etna-alternance.net/sujets/prism.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script><script type="text/javascript" src="https://kit.fontawesome.com/2128552f47.js"></script><meta charset="UTF-8"></head><body><div class="panel-heading panel-objective">Objectifs</div><div class="panel-body"><p>Étoile des Mers : Sous les Vagues de Données</p>
+<p>A l'ère du début du 20e siècle, un magnifique paquebot de croisière "Étoile des Mers" navigue à travers l'océan Atlantique, transportant à son bord une multitude de passagers aux origines diverses, aussi variés qu'une collection de cartes Pokémon. Mais derrière les feux d'artifice des soirées et les discussions animées, se cachent des mystères aussi profond que l'océan lui-même.</p>
+<p>Au cœur de cette aventure en mer, une équipe d'enquêteurs menée par le Professeur Leon embarque discrètement à bord. Leur mission se camouflé habilement derrière une croisière de plaisance anodine, est de percer les secrets bien gardés par les passagers de ce voyage inoubliable. Secrets dissimulés dans les données recueillies tout au long de leur périple mouvementé à travers les flots.</p>
+<p>Pendant que l'"Étoile des Mers" poursuit son périple vers l'inconnu, l'équipe du Professeur Leon se lance dans une quête pour démêler les mystères qui entourent ce voyage. Chaque exercice constitue une étape essentielle dans l'analyse et la compréhension des informations recueillies, rapprochant ainsi peu à peu de la vérité.</p>
+</div><div class="panel-heading panel-project">Consignes</div><div class="panel-body"><p>Le but de ce projet est de découvrir les bases de la data sciences ainsi que la lib panda de python </p>
+<div class="panel-heading undefined">Exercice 0 Importation des données</div><div class="panel-body"><p>L'équipe du Professeur Leon commence par importer les données du voyage du "Étoile des Mers" à l'aide de leur équipement informatique dernier cri. Grâce à leurs compétences en informatique, ils créent un chemin sûr à travers les méandres des fichiers de données, permettant ainsi l'accès aux informations cruciales.</p>
+<ol>
+<li>Importez les données SeaCareerSet à l’aide du package Pandas et de la commande consacrée pour l’import de csv. Nommez le DataFrame obtenu SeaCareerSet</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 1 : Affichage des données&nbsp;</div><div class="panel-body"><p>Armés de leur loupe numérique, les enquêteurs décident de jeter un premier coup d'œil pour comprendre ce que les données a leur disposition contiennent avant de se plonger dans une analyse plus approfondie.<br>fouillent chaque recoin pour découvrir les pépites cachées dans les données.</p>
+<ol>
+<li>Utilisez la méthode adéquate afin d’afficher les 10 premières valeurs.</li>
+<li>Utilisez la méthode adéquate afin d’afficher les 15 dernières.</li>
+<li>Utilisez la méthode adéquate afin d’afficher un échantillon aléatoire de 20 valeurs.</li>
+<li>Exportez l’échantillon dans un nouveau fichier CSV.</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 2 : Exploration des données et statistiques</div><div class="panel-body"><p>Cette fois-ci, les enquêteurs fouillent les données de "Étoile des Mers" avec bravoure, utilisant leur expertise pour extraire un trésor d'informations.</p>
+<ol>
+<li>Affichez le nombre de lignes et de colonnes en une seule commande python.</li>
+<li>Obtenez des statistiques descriptives pour les colonnes numériques.</li>
+<li>Obtenez des statistiques descriptives pour les colonnes non numériques.</li>
+<li>Affichez les valeurs uniques de la colonne contenant les catégories de travail. Que constatez vous ?</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 3 : Filtrage et sélection de données</div><div class="panel-body"><p>Comme des chercheurs d'or, l'équipe trie les données pour extraire les gemmes les plus rares et précieuses. Ils séparent les données des potentiels passagers les plus intéressants, ceux qui pourraient cacher les secrets les plus intrigants.</p>
+<ol>
+<li>Filtrez les données pour n'afficher que les passagers ayant obtenu une Maîtrise.</li>
+<li>Filtrez les données pour n'afficher que les passagers majeurs.</li>
+<li>Créez un DataFrame SinglePassengers avec uniquement les passagers voyageant seul.</li>
+<li>Sélectionnez dans SinglePassengers les colonnes avec des informations que l’on peux retrouver sur un passeport.</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 4 : Traitement des valeurs manquantes</div><div class="panel-body"><p>A cette étape, ils s'attaquent aux failles comme de vrais couturiers d'une toile numérique, éliminant toute lacune qui pourrait semer le chaos dans la trame de vérité.</p>
+<ol>
+<li>Identifiez les valeurs manquantes dans le DataFrame SeaCareerSet.</li>
+<li>Grâce a une information dans une autre colonne, une colonne incomplète peut être compléter. Identifiez et complétez cette colonne.</li>
+<li>Remplacez les valeurs de chaque colonne en utilisant au minimum 3&nbsp;méthode différente.</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 5 : Tri et regroupement de données</div><div class="panel-body"><p>Afin de révéler les secrets cachés, ils distillent les informations pour extraire les tendances les plus précieuses, séparant le plomb des diamants parmi les données.</p>
+<ol>
+<li>Triez les données en fonction du nombre d’heures de travail par semaine. Du plus travailleurs au moins travailleurs.</li>
+<li>Calculez la moyenne des dettes de chaque profession.</li>
+<li>Calculez le patrimoine médian de chaque profession.</li>
+<li>Calculez le min et le max de chaque colonne en groupant les données par tranche de salaire.</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 6 : Visualisation de données</div><div class="panel-body"><p>WARNING : utiliser exclusivement pandas<br>Les enquêteurs transforment les informations brutes en œuvres d'art numériques, rendant ainsi les découvertes aussi éclatantes qu'une constellation dans le ciel nocturne. Ils illuminent tel des étoiles filantes les mystères des passagers avec des graphiques.</p>
+<ol>
+<li>Créez un histogramme de l'âge des passagers avec titre et noms de axes</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 6bis : Visualisation de données</div><div class="panel-body"><p>WARNING : utiliser exclusivement pandas<br>Les enquêteurs transforment les informations brutes en œuvres d'art numériques, rendant ainsi les découvertes aussi éclatantes qu'une constellation dans le ciel nocturne. Ils illuminent tel des étoiles filantes les mystères des passagers avec des graphiques.</p>
+<ol>
+<li>Créez un histogramme de l'âge des passagers</li>
+<li>Créez un diagrammes circulaire de la situation matrimoniale des passagers majeurs avec titre et nom des secteurs</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 7 : Manipulation de DataFrames</div><div class="panel-body"><p>L'équipe manie les données avec dextérité, les segmentant habilement pour une analyse approfondie. Ils jonglent avec les informations mais surtout les détails pour dévoiler les secrets les plus mystérieux et les mieux gardés.</p>
+<ol>
+<li>Créez deux DataFrames Titanic et Career, en séparant les données professionnelles des passagers de celles propres a la croisière. Les colonnes Nom, sexe et âge seront retenues dans aucun des DataFrames.</li>
+<li>Supprimez dans Career les lignes avec des valeurs vides</li>
+<li>Fusionnez Career et CareerExtension afin de créer qu’un seul DataFrame.</li>
+<li>Ajoutez les données Passenger a celles du DataFrame Titanic.</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 8 :&nbsp;Filtrage avancé</div><div class="panel-body"><p>Les enquêteurs explorent les données sous toutes leurs facettes, fouillant chaque recoin pour dévoiler les indices les plus obscurs pour révéler les mystères enfouis au cœur des données.</p>
+<ol>
+<li>Calculez le pourcentage de survivants par sexe.</li>
+<li>Recherchez la classe ayant le plus grand nombre de survivants.</li>
+<li>Comparez la moyenne des tarifs entre les survivants et les non-survivants.</li>
+<li>Filtrez les passagers qui ont payé un tarif supérieur à la médiane.</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 9 :&nbsp;Cohérence des données</div><div class="panel-body"><p>Comme l'équipe veille à ce que chaque détail soit vérifié et authentifié, ils éliminent toute trace d'erreur ou d'incohérence. Garantissant ainsi que les données sont aussi fiables qu'un phare dans la nuit qui guide l'équipe vers des conclusions solides.</p>
+<ol>
+<li>Créez une nouvelle colonne "title" qui extrait le titre du nom de chaque passager (par exemple, M. pour Monsieur, Mme pour Madame, etc.)</li>
+<li>Explorez la distribution des titres et analysez s'il y a des titres rares ou des erreurs.</li>
+<li>Créez une nouvelle colonne appelée "group_age" dans le DataFrame, qui indique&nbsp;en fonction de l’age du passager : baby : de la naissance à 2 ans. kid : de 3 ans à 11 ans. adolescent : de 12 ans à 17 ans environ. adult :&nbsp;18 ans et +</li>
+<li>Affichez les passagers mineurs où les colonnes sibsp et parch sont différentes de zéro. Analysez ces cas et évaluez leur cohérence.</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 10 : Analyse des relations</div><div class="panel-body"><p>Chaque lien entre les passagers est analysé. Ainsi, ils tissent une toile de relations, révélant les connexions cachées entre les passagers à bord.</p>
+<ol>
+<li>Calculez la corrélation entre l'âge et le tarif payé par les passagers.</li>
+<li>Créez une nouvelle colonne appelée "family_size" représentant la taille de la famille a bord pour un passager.</li>
+<li>Analysez la corrélation entre la taille de la famille et le fait de survivre.</li>
+</ol>
+</div><div class="panel-heading undefined">Exercice 11 :&nbsp;Transformation et Analyse approfondie</div><div class="panel-body"><p>L'équipe du Professeur Leon se lance dans une aventure audacieuse à travers ce vaste océan d'informations. Ils plongent profondément dans les données, dénichant chaque pépite cachée.</p>
+<ol>
+<li>Convertissez date d’embarquement au bon format.</li>
+<li>Extrayez l’heure d’embarquement a partir de cette colonne.</li>
+<li>Créez une DataFrame pivot montrant la moyenne des tarifs payés par classe, sexe et jour d’embarcation.</li>
+<li>Identifiez la classe, le sexe et le jour d’embarcation où le tarif moyen est le plus élevé.</li>
+</ol>
+</div></div></body></html>
